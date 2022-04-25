@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
+
+/* reset da pagina */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+        
+    
+}
+
+.container{
+    
+    max-width: 1336px;    
+    margin: 0 auto;
+    
+} 
+.flex{
+    display: flex;
+} 
+ /* barra lateral */
+.barra-lateral{
+    max-width: 220px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+    position: fixed;
+    width: 220px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);     
+    display: block; 
+    align-items: center;
+    text-align: center;
+    height: 100%;
+      
+     
+       
+}
+.barra-lateral >a {
+    text-decoration: none;
+    display: block;
+    height: 33px;
+    color: #725C5C;
+    
+     
+}
+.barra-lateral > img{
+    width: 220px;
+    height: 258px;
+    max-width: 99%;
+}
+.links-barralateral{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;  
+    flex-direction: column;
+      
+
+}
+
+.slaca2019{
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    width: 220px;
+    height: 68px;
+    justify-content: center;
+    padding: 18px;
+    
+
+}
+/* header */
+.header{  
+    width: 1146px;
+    height: 68px;
+    background: #FDF1EB;
+    margin: 0 auto;
+    margin-left: 220px;    
+    padding-left: 36px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    
+   
+    
+
+
+}
+.header > p {
+    margin-top: 5px;
+    
+}
+
+.botao-idioma {
+    
+    width: 97px;    
+    height: 34px;
+    padding: 17px; 
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    justify-content: center; 
+    align-items: center;
+    background: #FDF1EB;
+    
+}
+.botao-idioma >p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login{
+    width: 150px;
+    flex-wrap: wrap;    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    justify-content: end;
+    color: #333333;
+    text-align: right;    
+    margin-right: 36px;
+    
+
+    
+} 
+.login-email{
+    padding-right:48px;
+    margin-top: -15px;
+}
+
+
+.img-login{
+   
+    width: 50px;
+    height: 30px; 
+       
+    
+}
+
+main{
+    width: 1059px;
+    flex-direction: column;
+}
+.titulos-main> h3{
+    width: 786px;
+    height: 54px;
+    justify-content: center;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    margin-left: 220px;
+    left: 50px;
+    right: 273px;
+    top: 80px;
+    position: absolute;
+            
+}
+.botoes-titulo{  
+    position: absolute;
+    left: 1100px;
+    top: 80px;
+    justify-content: center;    
+ 
+}
+.botoes-titulo1{
+    width: 120px;
+    height: 31px;
+    background: #ED7839;    
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border:none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;   
+
+
+}
+.botoes-titulo2{
+    width: 43px;
+    height: 31px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #ED7839; 
+    border: none;
+
+}
+
+.botoes-citar{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    margin-top: 12px;
+
+}
+
+.cont-video{
+    flex-direction: column;
+    margin-left: -15px;
+    position: absolute;
+    width: 783px;
+    height: 439px;
+    left: 280px;
+    top: 150px;
+    background: rgba(141, 53, 6, 0.5);
+    border-radius: 3px;
+    
+    
+}
+
+ 
+
+
+.video{
+    height: 439px;
+    width: 783px;
+    border-radius: 3px;
+    background: #8D350680;    
+    max-width:783px ;    
+
+}
+.detalhes{
+    position: absolute;
+    width: 242px;
+    height: 439px;
+    left: 1080px;
+    top: 150px;
+    display: block;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;    
+    overflow: auto;
+    
+
+}
+.titulo-detalhes{
+    width: 242px;
+    height: 45px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4E4E4E;
+}
+
+.texto-detalhes{
+    width: 212px;
+    height: 364px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    padding: 15px; 
+    color: #5C5C5C;
+}
+.texto-detalhes >p {
+    margin-bottom: 50px;
+    
+}   
+.texto-menor{
+    font-size: 10px;
+    color: #CCCCCC;
+}
+.p-margin{
+    margin-top: 15px;
+}
+
+.resumo{
+    
+    position: absolute;
+    width: 1058px;    
+    left: 264px;
+    top: 600px;
+    border: 1px solid #ECECEC;    
+    border-radius: 3px;
+    margin-top: 30px;
+    
+}
+.resumo >h2{
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    
+    border-radius: 3px 3px 0px 0px;
+    padding: 15px;
+}
+.texto-resumo{
+    padding: 15px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    
+}
+#texto-oculto{
+    display:none;
+    
+}
+#btnmostrar{
+    color:  #ED7839;
+    background-color:inherit;
+    border-radius: 0;
+    border-style: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+}
+.discussoes{
+    position: absolute;
+    width: 1058px;    
+    left: 264px;
+    top: 800px;
+    border: 1px solid #ECECEC;    
+    border-radius: 3px;
+    margin: 0 auto;	
+    margin-top: 30px;
+    text-align: center; 
+
+}
+.discussoes >h2 {
+    
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;        
+    border-radius: 3px 3px 0px 0px;
+    padding: 15px;
+    text-align: left;
+    
+}
+.discussoes >h3 {
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ED7839;
+}
+.discussoes >img {
+    padding: 27px;
+    
+}
+.discussoes >p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+    
+    
+}
+.btn-discussoes{
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    border:none;
+    width: 133px;
+    height: 32px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 21px;
+}
+#linha-horizontal {
+    border: 1px solid #E7E7E7;
+    width: 1027px;    
+    margin: 0 auto;
+    margin-top: -15px;
+
+}
+.perguntas{
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;    
+    width: 1024px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 35px;
+    
+}
+.perguntas >h2{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ED7839;
+    text-align: left;
+    align-items: center;
+    margin-top: 10px;
+}
+.autor{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

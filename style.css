@@ -257,7 +257,7 @@ main{
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;    
-    overflow-y: auto;
+    overflow: auto;
     
 
 }
@@ -359,7 +359,7 @@ main{
     border-radius: 3px;
     margin: 0 auto;	
     margin-top: 30px;
-    align-items: center;   
+    text-align: center; 
 
 }
 .discussoes >h2 {
@@ -368,6 +368,7 @@ main{
     border: 1px solid #ECECEC;        
     border-radius: 3px 3px 0px 0px;
     padding: 15px;
+    text-align: left;
     
 }
 .discussoes >h3 {
@@ -382,6 +383,7 @@ main{
 }
 .discussoes >img {
     padding: 27px;
+    
 }
 .discussoes >p {
     font-family: 'Quicksand';

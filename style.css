@@ -42,9 +42,13 @@
     display: block;
     height: 33px;
     color: #725C5C;
+    padding: 5px;
     
      
 }
+a:hover {
+    background-color:#FDF1EB;
+  }
 .barra-lateral > img{
     width: 220px;
     height: 258px;

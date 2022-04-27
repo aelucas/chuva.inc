@@ -359,10 +359,13 @@ main{
     border-radius: 3px;
     margin: 0 auto;	
     margin-top: 30px;
-    text-align: center; 
+    text-align: center;
+    height: 900px; 
 
 }
-.discussoes >h2 {
+
+
+.disc-h2 {
     
     background: #FDF1EB;
     border: 1px solid #ECECEC;        
@@ -371,7 +374,7 @@ main{
     text-align: left;
     
 }
-.discussoes >h3 {
+.disc-h3 {
     margin-top: 15px;
     text-align: center;
     font-family: 'Roboto';
@@ -381,11 +384,11 @@ main{
     line-height: 21px;
     color: #ED7839;
 }
-.discussoes >img {
+.disc-img {
     padding: 27px;
     
 }
-.discussoes >p {
+.disc-p {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -410,15 +413,151 @@ main{
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 21px;
+    margin-top: 41px;
 }
 #linha-horizontal {
     border: 1px solid #E7E7E7;
     width: 1027px;    
     margin: 0 auto;
-    margin-top: -15px;
+    margin-top: -16px;
 
 }
+.form-duvida{
+    
+    width: 1042px;
+    height: 183px;
+    /* left: 279px;
+    top: 800px; */
+    text-align: center;
+    display: none;
+}
+.duvida{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #5C5C5C;
+    margin-top: 10px;
+}
+.titulo-duvida{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ED7839;
+    text-align: left;    
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.assunto{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 1024px;
+    height: 39px;
+    margin-top: 3px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+    padding-left: 15px;
+}
+
+.conteudo{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 1024px;
+    height: 95px;
+    
+}
+.div-btn{
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+    width: 1024px;
+    height: 31px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 10px;
+    
+}
+.btn-enviar{
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    width: 205px;
+    height: 31px;
+    border: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    
+    
+    
+}
+
+.div1{
+    display: block;
+}
+.div2{
+    display: none;
+}
+
+
+.perg-env{
+    width: 1042px;
+    height: 183px;
+    text-align: center;
+    display: none;
+}
+.div3{
+    display: none;
+}
+
+.perg-env > h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ED7839;
+}
+
+.perg-env >p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #595959;
+}
+.perg-outros{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 137.5%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F48F44;
+}
+
 .perguntas{
     background: #FFFFFF;
     border: 1px solid #E7E7E7;
@@ -429,7 +568,13 @@ main{
     padding: 15px;
     margin: 0 auto;
     margin-top: 35px;
+    text-align: left;   
     
+    
+    
+}
+.perg-marg{
+    margin-top: 35px;
 }
 .perguntas >h2{
     font-family: 'Quicksand';
@@ -450,6 +595,47 @@ main{
     line-height: 15px;
     text-align: left;
     margin-bottom: 10px;
+}
+.perg-heart {
+    background: #ED7839;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    width: 27px;
+    height: 19px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.perg-more{
+    color:  #ED7839;
+    border: none;
+    background: inherit;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.perg-likes{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 19px;
+    color: #757575;
+    background-color: inherit;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.img-footer {
+    width: 1086px;
+    height: 181px;
+    position: absolute;
+    left: 245px;
+    top: 1750px;
 }
 
     

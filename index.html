@@ -96,29 +96,90 @@
             
         </div>
 
-        <div class="discussoes ">
-            <h2>Discussões</h2>
-            <h3>Compartilhe suas ideias ou dúvidas com os autores!</h3> 
-            <img src="./img/icone1.svg" alt="">
-            <img src="./img/icone2.svg" alt="">
-            <img src="./img/icone3.svg" alt="">
+        <div class="discussoes">
+            <h2 class="disc-h2">Discussões</h2>
+            <div id="div1">
+                
+                <h3 class="disc-h3">Compartilhe suas ideias ou dúvidas com os autores!</h3> 
+                <img src="./img/icone1.svg" alt="" class="disc-img">
+                <img src="./img/icone2.svg" alt="">
+                <img src="./img/icone3.svg" alt="">
 
-            <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus<br> questionamentos ou sugestões para o autor</p>
+                <p class="disc-p">Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus<br> questionamentos ou sugestões para o autor</p>
             
-            <button class="btn-discussoes"><i class="fa-solid fa-plus"></i>  Criar topico</button>
-            <div id="linha-horizontal"></div>
+                <button class="btn-discussoes" onclick="toggleDiv()" id="btn-discussoes"><i class="fa-solid fa-plus"></i>  Criar topico</button>
+                <div id="linha-horizontal"></div>
+            </div>
+            <div class="form-duvida " id="div2">
+                <h3 class="duvida">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</h3>
+                <form action="">
+                    <div class="txt-assunto">
+                        <h3 class="titulo-duvida">Assunto</h3>
+                        <input type="text" required class="assunto" placeholder="Defina um tópico sucinto para notificar os autores...">
+                        
+                    </div>
+                    <div class="txt-msg">
+                        <h3 class="titulo-duvida">Conteúdo</h3>
+                      <input type="text" required class="conteudo">
+                    </div>
+                        <div class="div-btn">                    
+                          <button>B  I</button>         
+                          <button class="btn-enviar" onclick="toggleDiv1()">Enviar</button>
+                        </div>   
+
+            <div class="perg-env" id="div3">
+                <h3>Seu tópico foi enviado com sucesso!</h3>
+                <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+                <p class="perg-outros">Descubra outros trabalhos!</p>
+
+            </div>
+
+        </div>     
+            
+
+
+            <div class="perguntas perg-marg">
+                <h2>Assunto da pergunta aparece aqui</h2>
+                <p class="autor">Carlos Henrique Santos</p>
+                <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
+                <button class="perg-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="perg-heart"><i class="fa-solid fa-heart"></i></button>
+                <button class="perg-likes"> 1 like</button>
+                <button class="perg-likes"> 1 resposta</button> 
+            </div>
             <div class="perguntas">
                 <h2>Assunto da pergunta aparece aqui</h2>
                 <p class="autor">Carlos Henrique Santos</p>
                 <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
+                <button class="perg-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="perg-heart"><i class="fa-solid fa-heart"></i></button>
+                <button class="perg-likes"> 1 like</button>
+                <button class="perg-likes"> 1 resposta</button> 
             </div>
-                   
+            <div class="perguntas">
+                <h2>Assunto da pergunta aparece aqui</h2>
+                <p class="autor">Carlos Henrique Santos</p>
+                <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
+                <button class="perg-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="perg-heart"><i class="fa-solid fa-heart"></i></button>
+                <button class="perg-likes"> 1 like</button>
+                <button class="perg-likes"> 1 resposta</button> 
+            </div>            
             
-        </div>            
+        
+        
+                </div>
+            </div>
+          </form>
+        </div>
+        </div>           
                         
                 
 
     </main>
+    <footer>
+        <img src="./img/imagem - footer.png" alt="" class="img-footer">
+    </footer>
 <script src="./script.js"></script>
 </body>
 </html>

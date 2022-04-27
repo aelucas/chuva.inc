@@ -44,17 +44,36 @@ function toggleDiv() {
 
     if(document.getElementById("div2").style.display == 'none') {
       document.getElementById("div2").style.display = 'block';
-      document.getElementById("div3").style.display = 'none';
+      document.getElementById("div3").style.display = 'none';      
       document.querySelector(".perg-marg").style.top = "35px 0 0 15px";
       document.querySelector(".img-footer").style.top = "1750px";
-
-      
-      
+      document.getElementById("w8-feedback").style.display = 'block';
+      document.getElementById("w8-feedback").style.display = 'none';
+       
       
     } else {
       document.getElementById("div2").style.display = 'none';
-      document.getElementById("div3").style.display = 'block';
+      document.getElementById("div3").style.display = 'block';      
       document.querySelector(".perg-marg").style.margin = "75px 0 0 15px";
       document.querySelector(".img-footer").style.top = "1750px";
+      document.getElementById("w8-feedback").style.display = 'block';
     }
   }
+  
+function toggleDiv2() {
+  if(document.getElementById("perguntas-mostrar").style.display == 'none') {
+      document.getElementById("perguntas-mostrar").style.display = 'block';
+      document.getElementById("respostas").style.display = 'none';
+      document.getElementById("perguntas-none").style.display = 'none';
+      document.querySelector(".discussoes").style.height = '920px';
+
+  }else {
+        document.getElementById("perguntas-mostrar").style.display = 'none';
+        document.getElementById("respostas").style.display = 'block';
+        document.getElementById("perguntas-none").style.display = 'none';
+        document.querySelector(".discussoes").style.height = '920px';
+      
+      
+      }
+
+}

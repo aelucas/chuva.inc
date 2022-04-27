@@ -134,21 +134,24 @@
     justify-content: end;
     color: #333333;
     text-align: right;    
-    margin-right: 36px;
-    
+    margin-right: 36px; 
 
     
 } 
 .login-email{
-    padding-right:48px;
+    padding-right:40px;
     margin-top: -15px;
+}
+.bem-vindo{
+    margin-right: 9px;
 }
 
 
 .img-login{
    
-    width: 50px;
-    height: 30px; 
+    width: 30px;
+    height: 30px;
+    border-radius: 20px; 
        
     
 }
@@ -491,6 +494,17 @@ main{
     margin-left: 10px;
     
 }
+.btn-b {
+    border: none;
+    background-color: inherit;
+    margin-left: 15px;
+    width: 25px;
+    justify-content: space-between;
+    padding: 6px;
+    font-size: 16px;
+}
+
+
 .btn-enviar{
     background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
     border-radius: 0px 0px 4px 0px;
@@ -523,6 +537,7 @@ main{
     height: 183px;
     text-align: center;
     display: none;
+    margin-top: 30px;
 }
 .div3{
     display: none;
@@ -536,9 +551,10 @@ main{
     line-height: 21px;
     text-align: center;
     color: #ED7839;
+    margin-top: 25px;
 }
 
-.perg-env >p {
+.perg-txt {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
@@ -546,6 +562,7 @@ main{
     line-height: 19px;
     text-align: center;
     color: #595959;
+    margin-top: 35px;
 }
 .perg-outros{
     font-family: 'Quicksand';
@@ -556,6 +573,24 @@ main{
     text-align: center;
     text-decoration-line: underline;
     color: #F48F44;
+    margin-top: 30px;
+}
+
+.btn-outrotop{
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    margin-top: 60px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    width: 235px;
+    height: 32px;
 }
 
 .perguntas{
@@ -617,7 +652,7 @@ main{
     margin-right: 5px;
 }
 .perg-likes{
-    font-family: 'Segoe UI';
+    font-family: 'Quicksand';
     font-style: normal;
     font-weight: 350;
     font-size: 14px;
@@ -629,6 +664,103 @@ main{
     margin-right: 5px;
 
 }
+.w8-feedback{
+    display: none;
+    background: #DDDDDD;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;    
+    width: 1024px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: -155px;
+    text-align: center;
+    height: 154px;
+    opacity : 0.9;
+    
+
+}
+.w8-feed {
+    margin-top: 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #707070;
+}
+.w8-edit {
+    margin-top: 5px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #ED7839
+}
+
+.respostas{
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    border-radius: 0px;
+    width: 1024px;
+    margin-left: 15px;
+    padding: 15px;
+    
+    
+}
+.respostas2{
+    background:inherit;
+    border: 1px solid #E7E7E7;
+    border-radius: 0px;
+    width: 1024px;
+    margin-left: 15px;
+    padding: 15px;
+    
+    
+}
+.resp-titutlo{
+    justify-content: space-between;
+    display: flex;
+}
+
+.resp-h4 {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5C5C5C;
+}
+
+.resp-autor{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ED7839;
+    width: 60px;
+    margin-right: 5px;
+    
+}
+
+.rest-txt {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4D4D4D;
+    text-align: left;
+}
+
+#respostas{
+    display: none;
+}
+
+
+
 
 .img-footer {
     width: 1086px;
@@ -636,6 +768,7 @@ main{
     position: absolute;
     left: 245px;
     top: 1750px;
+    margin-top: 15px;
 }
 
     

@@ -37,8 +37,8 @@
         </button>
 
         <div class="login flex">
-            <p>Bem Vindo!</p>
-            <img src="./img/instagram-profile-button-by-Vexels.svg" alt="" class="img-login">           
+            <p class="bem-vindo">Bem Vindo!</p>
+            <img src="./img/image.svg" alt="" class="img-login">           
             <p class="login-email">alguem12@galoascience.com</p>
                    
             
@@ -123,22 +123,25 @@
                       <input type="text" required class="conteudo">
                     </div>
                         <div class="div-btn">                    
-                          <button>B  I</button>         
+                          <div>
+                              <img src="./img/bold-text-option_icon-icons.com_73656.png" alt="" class="btn-b">
+                              <img src="./img/italic-symbol_icon-icons.com_53970.png" alt="" class="btn-b">
+                          </div>
+                                
                           <button class="btn-enviar" onclick="toggleDiv1()">Enviar</button>
                         </div>   
-
+            </div>
             <div class="perg-env" id="div3">
                 <h3>Seu tópico foi enviado com sucesso!</h3>
-                <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+                <p class="perg-txt">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
                 <p class="perg-outros">Descubra outros trabalhos!</p>
+                <button class="btn-outrotop" onclick="toggleDiv1()" > Criar outro tópico</button>
 
-            </div>
-
-        </div>     
+            </div>      
             
 
 
-            <div class="perguntas perg-marg">
+            <div class="perguntas perg-marg divperg1">
                 <h2>Assunto da pergunta aparece aqui</h2>
                 <p class="autor">Carlos Henrique Santos</p>
                 <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
@@ -147,16 +150,70 @@
                 <button class="perg-likes"> 1 like</button>
                 <button class="perg-likes"> 1 resposta</button> 
             </div>
-            <div class="perguntas">
+
+            <div class="w8-feedback" id="w8-feedback">
+                <i class="fa-solid fa-check-double"></i>
+                <h3 class=" w8-feed">Aguardando feedback dos autores</h3>
+                <p class=" w8-edit">Editar topico</p>
+            </div>
+            <div class="perguntas" id="perguntas-mostrar">
                 <h2>Assunto da pergunta aparece aqui</h2>
                 <p class="autor">Carlos Henrique Santos</p>
                 <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
                 <button class="perg-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
                 <button class="perg-heart"><i class="fa-solid fa-heart"></i></button>
-                <button class="perg-likes"> 1 like</button>
-                <button class="perg-likes"> 1 resposta</button> 
+                <button class="perg-likes"> 4 like</button>
+                <button class="perg-likes" id="btn-resp" onclick="toggleDiv2()"> 4 resposta</button> 
             </div>
-            <div class="perguntas">
+            <div id="respostas">
+            <div class="respostas">
+                <div class="resp-titutlo">
+                    <div><h4 class="resp-h4">Adriano da Silva</h4></div>
+                    <div>
+                        <p class="resp-autor"> autor <i class="fa-solid fa-check-double"></i></p>
+                        
+                    </div>
+                </div>
+                <p class="rest-txt">Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo</p>
+
+            </div>
+            <div class="respostas2">
+                <div class="resp-titutlo">
+                    <div><h4 class="resp-h4">Adriano da Silva</h4></div>
+                    <div>
+                        <p class="resp-autor"> autor <i class="fa-solid fa-check-double"></i></p>
+                        
+                    </div>
+                </div>
+                <p class="rest-txt">Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo</p>
+
+            </div>
+            <div class="respostas">
+                <div class="resp-titutlo">
+                    <div><h4 class="resp-h4">Adriano da Silva</h4></div>
+                    <div>
+                        <p class="resp-autor"> autor <i class="fa-solid fa-check-double"></i></p>
+                        
+                    </div>
+                </div>
+                <p class="rest-txt">Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo</p>
+
+            </div>
+            <div class="respostas">
+                <div class="resp-titutlo">
+                    <div><h4 class="resp-h4">Adriano da Silva</h4></div>
+                    <div>
+                        <p class="resp-autor"> autor <i class="fa-solid fa-check-double"></i></p>
+                        
+                    </div>
+                </div>
+                <p class="rest-txt">Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo</p>
+
+            </div>
+        </div>
+            
+
+            <div class="perguntas" id="perguntas-none">
                 <h2>Assunto da pergunta aparece aqui</h2>
                 <p class="autor">Carlos Henrique Santos</p>
                 <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
